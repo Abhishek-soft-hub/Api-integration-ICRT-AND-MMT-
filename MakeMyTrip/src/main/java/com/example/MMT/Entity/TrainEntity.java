@@ -20,6 +20,7 @@ public class TrainEntity {
 	@Temporal(TemporalType.TIMESTAMP)
 	private LocalDateTime time;
 
+	private String coundtry;
 	public int gettId() {
 		return tId;
 	}
