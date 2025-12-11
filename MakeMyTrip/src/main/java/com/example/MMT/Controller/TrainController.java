@@ -50,6 +50,11 @@ public class TrainController {
 
 	}
 
+	@Putmappping("mmt/train/update")
+	public responseEntity updateTrain(@PathVariable int id){
+		return new responseEntity("data are updated", HttpStatus.ok);
+	}
+
 //	@GetMapping("mmt/trains")
 //	public List<TrainEntity> getAllTrain() {
 //		return service.getTrain();
