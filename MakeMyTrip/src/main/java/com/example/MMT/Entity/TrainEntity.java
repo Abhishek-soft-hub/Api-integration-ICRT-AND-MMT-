@@ -17,6 +17,7 @@ public class TrainEntity {
 	private String tName;
 	private String source;
 	private String dest;
+	private LocalDateTime date;
 	@Temporal(TemporalType.TIMESTAMP)
 	private LocalDateTime time;
 
